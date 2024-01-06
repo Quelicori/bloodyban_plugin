@@ -1,0 +1,11 @@
+name: BloodyBan
+version: '${version}'
+main: org.quelicori.bloodyban.BloodyBan
+api-version: '1.16'
+
+commands:
+  bloodybanreload:
+    description: конфиг
+    permission: bloodyban.reload
+    permission-message: у вас нет прав)
+    usage: /bloodybanreload
