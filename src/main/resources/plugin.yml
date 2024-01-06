@@ -4,8 +4,8 @@ main: org.quelicori.bloodyban.BloodyBan
 api-version: '1.16'
 
 commands:
-  bloodybanreload:
-    description: конфиг
-    permission: bloodyban.reload
+  bloodyban:
+    description:
+    permission: bloodyban.owner
     permission-message: у вас нет прав)
-    usage: /bloodybanreload
+    usage: /bloodyban <exempt|unexempt|reload>
